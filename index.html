@@ -3,54 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="header">
-        <nav>
-            <a href="#" class="logo">Laleti</a>
-            <div class="nav-bar">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="left-sidebar"></div>
-        <div class="row">
-            <img src="" alt="">
+<header class="header" id="header">
+    <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li>
+                    <a href="" class="nav__link">Hello</a>
+                </li>
+                <li>
+                    <a href="" class="nav__link">Experience</a>
+                </li>
+                <li>
+                    <a href="" class="nav__link">Blog</a>
+                </li>
+                <li>
+                    <a href="" class="nav__link">Contacts</a>
+                </li>
+            </ul>
         </div>
-        <div class="right-column">
-            <h1>I am Laleti Mutheu <br>
-            Web Developer
-            </h1>
-            <p>I am a beginner in the web development industry, with 0-1 years experience. I am currently enroled in a 8 month bootcamp at Moringa School - Nairobi, Kenya</p>
-            <div class="socials">
-                <div class="icon">
-                    <i class="facebook"></i>
-                    <a href="#">
-                        <i class="link-alt"></i>
-                    </a>
-                </div>
-
-                <div class="icon">
-                    <i class="instagram"></i>
-                    <a href="#">
-                        <i class="link-alt"></i>
-                    </a>
-                </div>
-
-                <div class="icon">
-                    <i class="twitter"></i>
-                    <a href="#">
-                        <i class="link-alt"></i>
-                    </a>
+    </nav>
+</header>
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="./photos/Portfolio.jpg" alt="" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__name">Laleti Mutheu</h1>
+                    <p class="home__about">Web Development - student</p>
+                    <dl class="home__list">
+                        <dt>Age:</dt>
+                        <dd>25</dd>
+                        <dt>Phone:</dt>
+                        <dd>+254 795 683 882</dd>
+                        <dt>Email:</dt>
+                        <dd>laleticynthia73@gmail.com</dd>
+                        <dt>Location:</dt>
+                        <dd>Nairobi, Kenya</dd>
+                    </dl>
+                    <div class="home__social-media">
+                        <a href="https://ke.linkedin.com/" target="_blank" class="home__social-link"><i class="ri-linkedin-fill"></i></a>
+                        <a href="https://github.com/" target="_blank" class="home__social-link"><i class="ri-github-fill"></i></a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link"><i class="ri-twitter-fill"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    
-    </div>
+
+        </section>
+    </main>
+<script src="./index.js"></script>
 </body>
 </html>
