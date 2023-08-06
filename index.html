@@ -13,19 +13,21 @@
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
                 <li>
-                    <a href="" class="nav__link">Hello</a>
+                    <a href="#home" class="nav__link active-link">Hello</a>
                 </li>
                 <li>
-                    <a href="" class="nav__link">Experience</a>
+                    <a href="#resume" class="nav__link">Education & Background</a>
                 </li>
                 <li>
-                    <a href="" class="nav__link">Blog</a>
+                    <a href="#skills" class="nav__link">Skills</a>
                 </li>
                 <li>
-                    <a href="" class="nav__link">Contacts</a>
+                    <a href="#contacts" class="nav__link">Contacts</a>
                 </li>
             </ul>
+            <div class="nav__close" id="nav-close"><i class="ri-close-fill"></i></div>
         </div>
+        <div class="nav__toggle" id="nav-toggle"><i class="ri-menu-fill"></i></div>
     </nav>
 </header>
     <main class="main">
@@ -53,6 +55,107 @@
                 </div>
             </div>
 
+        </section>
+        <section class="hello section container">
+            <h2 class="section__title">Hello There!</h2>
+            <p class="hello__details tet-lg">
+                I am a web development student, with 0-1 years of experience in this industry. <br>I am a determined individual, open to new ideas, collaborative and team player.
+                I am currently enrolled in a 8 month boot camp at Moringa school-Nairobi, kenya. <br>
+                Areas explored so far are HTML,CSS and Javascript.
+            </p>
+            <a href="" class="button button--flex"></a>
+        </section>
+        <section class="section container" id="resume">
+            <h2 class="section__title">Education & Background</h2>
+
+            <div class="resume__container grid">
+                <div class="resume__data">
+                    <h3 class="resume__title text-sm">EDUCATION</h3>
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">MOI UNIVERSITY - ELDORET</h3>
+                        <p class="resume__date text-sm">2015 - 2020</p>
+                        <p class="resume__description text-lg">BSc Project Management</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">DALWORTH STATISTICA & RESEARCH INSTITUTE</h3>
+                        <p class="resume__date text-sm">2020</p>
+                        <p class="resume__description text-lg">Data Analysis</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">MOI GIRLS HIGH SCHOOL - ELDORET</h3>
+                        <p class="resume__date text-sm">2011 - 2015</p>
+                        <p class="resume__description text-lg">HighSchool Diploma</p>
+                    </div>
+                </div>
+
+                <div class="resume__data">
+                    <h3 class="resume__title text-sm">WORK EXPERIENCE</h3>
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">GREENFOREST FOODS LTD</h3>
+                        <p class="resume__date text-sm">2021 - Present</p>
+                        <p class="resume__description text-lg">Monitoring & Evaluation Manager</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">WOMEN EDUCATION RESEARCHERS of KENYA</h3>
+                        <p class="resume__date text-sm">2019 - 2020</p>
+                        <p class="resume__description text-lg">Project Intern</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">CONSTITUTION and REFORM EDUCATION CONSORTIUM KENYA</h3>
+                        <p class="resume__date text-sm">2019</p>
+                        <p class="resume__description text-lg">Project Intern</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="section container" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <div class="skills__container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title text-sm">FRONTEND</h3>
+                    
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">HTML</p>
+                                <span class="skills__number text-sm">70%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: ;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">CSS</p>
+                                <span class="skills__number text-sm">60%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: ;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">JAVASCRIPT</p>
+                                <span class="skills__number text-sm">50%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: ;"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 <script src="./index.js"></script>
