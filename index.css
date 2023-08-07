@@ -306,3 +306,23 @@ input{
     border-radius: 3px;
     padding: 0.625rem;
 }
+.textarea{
+    height: 9.2rem;
+    resize: none;
+}
+
+.contact__button{
+    margin-top: 1.875rem;
+    width: 100%;
+    box-shadow: 0 1px 29px rgb(0 0 0 /40%);
+}
+.footer__copy{
+    opacity: 0.4;
+    margin-top:3.75rem;
+    text-align: center;
+}
+.contact__message{
+    position: absolute;
+    bottom: 27%;
+    left: 0;
+}
