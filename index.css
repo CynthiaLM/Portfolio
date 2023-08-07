@@ -9,7 +9,6 @@
     --text-color-alt: #999;
     --bg-color: #fff;
     --bg-color-alt: #e9ecef;
-    --border-color: #f1f1f1;
     /*font*/
     --PT-font: 'PT Serif', serif;
     --fs-h1: 2.75rem;
@@ -162,7 +161,7 @@ input{
 .home__about{
     margin-bottom: 2.5em;
 }
-.hme__list dt{
+.home__list dt{
     float: left;
     font-weight: var(--bold);
     opacity: 0.4;
@@ -239,4 +238,71 @@ input{
     display: block;
     background-color: var(--primary-color)
     ;
+}
+.contact{
+    background: url(./photos/pawel-czerwinski-1k9lY4WWXJ0-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+.contact::before{
+    content: '';
+    background: var(--linear-gradient);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.contact__content{
+    z-index: 10;
+    position: relative;
+}
+.contact__container{
+    grid-template-columns: 4fr 5fr 3fr;
+    column-gap: 1.875rem;
+    padding-top: 1.25rem;
+}
+.contact .section__title,
+.contact__list,
+.contat__social-link,
+::placeholder,
+.contact__input,
+.contact__form-title,
+.footer__copy{
+    color: #555;
+    font-family: var(--PT-font);
+}
+.contact__list{
+    margin-bottom: 3.25rem;
+}
+.contact__list dt{
+    float: left;
+    font-weight: var(--bold);
+    text-transform: uppercase;
+}
+.contact__list dd{
+    padding-left: 5.25em;
+    margin-bottom: 0.94em;
+}
+.contact__socialmedia li{
+    margin-bottom: 0.75rem;
+    font-family: var(--PT-font);
+}
+ 
+.contact__form{
+    position: relative;
+}
+.contact__form-title{
+    margin-bottom: 1.25em;
+}
+.contact__input-div{
+    margin-bottom: 0.94em;
+}
+.contact__input{
+    width: 100%;
+    border: 3px solid;
+    border-color: black;
+    border-radius: 3px;
+    padding: 0.625rem;
 }
