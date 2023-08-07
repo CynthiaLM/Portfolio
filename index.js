@@ -16,6 +16,11 @@ const sendEmail = (e) => {
             .then(() => {
                 contactMessage.classList.add('color-light');
                 contactMessage.textContent = 'Your message has been sent!';
+                //clearing text after submitting
+                contactName.value = '';
+                contactEmail.value = '';
+                Message.value = '';
+
                 setTimeout(() => {
                     contactMessage.textContent = '';
                 }, 3000);
