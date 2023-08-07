@@ -55,14 +55,9 @@ ul{
 a{
     text-decoration: none;
 }
-button{
-    cursor: pointer;
-    background: none;
-    border: none;
-    outline: none;
-}
 img{
     max-width: 100%;
+    border-radius: 60%;
     height: auto;
 }
 textarea,
@@ -310,8 +305,19 @@ input{
     height: 9.2rem;
     resize: none;
 }
-
+.color-light{
+    opacity: o;
+}
+.color-dark{
+    opacity: 0.4;
+}
 .contact__button{
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-color: #FFA5B0;
+    border-style: solid;
     margin-top: 1.875rem;
     width: 100%;
     box-shadow: 0 1px 29px rgb(0 0 0 /40%);

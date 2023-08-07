@@ -187,23 +187,23 @@
                         
                         <form action="" id="contact-form">
                             <div class="contact__input-div">
-                                <input type="text" placeholder="Your name" 
+                                <input type="text" name="name" placeholder="Your name" 
                                 class="contact__input"
                                 id="contact-name">
                             </div>
 
                             <div class="contact__input-div">
-                                <input type="email" placeholder="Email address" 
+                                <input type="email" name="email" placeholder="Email address" 
                                 class="contact__input"
                                 id="contact-email">
                             </div>
                             <div class="contact__input-div">
-                                    <textarea placeholder="Type your message here" 
-                                    class="contact__input textarea" id="" cols="30" rows="10"></textarea>
+                                    <textarea name="message" placeholder="Type your message here" 
+                                    class="contact__input textarea" id="message" cols="30" rows="10"></textarea>
                             </div>
 
                             <p class="contact__message text-sm" id="contact-message">Message</p>
-                            <button type="submit" class="button contact__button">SEND MESSAGE</button>
+                            <button type="submit" class="button contact__button">SUBMIT</button>
                         </form>
                         <p class="footer__copy">&copy; 2023 Laleti Mutheu. All Rights Reserved</p>
                     </div>
@@ -211,6 +211,7 @@
             </div>
         </section>
     </main>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script src="./index.js"></script>
 </body>
 </html>
