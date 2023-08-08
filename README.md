@@ -30,4 +30,6 @@ Skills:
           -JAVASCRIPT
 
 FORM:
- details- name, email, message, submit button   
+ details- name, email, message, submit button  
+
+ The live site can be found here https://cynthialm.github.io/Portfolio/
